@@ -1,5 +1,5 @@
 layout: page
 title: "About"
-permalink: /home
+permalink: "/home"
 
 <h3> Home </h3>
