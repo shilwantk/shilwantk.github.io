@@ -1,0 +1,197 @@
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and overall styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+
+/* Container for all sections */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px 0;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+/* About me section */
+#home {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#home h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Work Experience section */
+#work {
+  background-color: #fff;
+  padding: 40px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#work h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#work ul {
+  list-style-type: none;
+}
+
+#work li {
+  margin-bottom: 20px;
+}
+
+#work h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#work p {
+  color: #555;
+}
+
+/* Portfolio section */
+#portfolio {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+  font-size: 1.5em;
+}
+
+.portfolio-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* Skills section */
+#skills {
+  margin-top: 40px;
+}
+
+#skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#skills li {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+/* Contact form */
+#contact {
+  background-color: #fff;
+  padding: 40px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+#contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
