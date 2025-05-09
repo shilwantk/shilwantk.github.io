@@ -12,6 +12,7 @@ body {
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
+  padding: 0;
 }
 
 /* Container for all sections */
@@ -26,17 +27,17 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 40px 0;
   text-align: center;
+  padding: 50px 0;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #ccc;
 }
 
@@ -47,13 +48,15 @@ header p {
 }
 
 #home h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
 #home p {
   font-size: 1.2em;
   color: #666;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .profile-image {
@@ -72,7 +75,7 @@ header p {
 }
 
 #work h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
@@ -115,7 +118,8 @@ header p {
 }
 
 .portfolio-item h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  margin-bottom: 15px;
 }
 
 .portfolio-item a {
@@ -124,6 +128,11 @@ header p {
   font-weight: bold;
   margin-top: 10px;
   display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.portfolio-item a:hover {
+  color: #007BFF;
 }
 
 /* Skills section */
@@ -156,7 +165,7 @@ header p {
 }
 
 #contact h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
@@ -181,10 +190,11 @@ form button {
   color: #fff;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 form button:hover {
-  background-color: #555;
+  background-color: #007BFF;
 }
 
 /* Footer */
@@ -194,4 +204,8 @@ footer {
   padding: 20px;
   background-color: #333;
   color: #fff;
+}
+
+footer p {
+  font-size: 1.2em;
 }
