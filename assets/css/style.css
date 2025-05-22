@@ -843,7 +843,8 @@ main {
 
 .skill .title-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Align to the top */
+  flex-direction: column;  /* Stack items vertically */
   gap: 5px;
   margin-bottom: 8px;
 }
