@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<main style="margin-top: 100px; margin-bottom: 100px;">
-  <article class="blog-post-wrapper" style="max-width: 720px; margin: 2rem auto; padding: 2rem; background: var(--eerie-black-2); color: #f0f0f0; border-radius: 16px;">
-    <header style="margin-bottom: 2rem;">
+<main>
+  <article class="blog-post-wrapper">
+    <header class="blog-post-header">
       <h1 class="h2 article-title">{{ page.title }}</h1>
-      <p class="blog-meta" style="color: #aaa; font-size: 0.9rem;">
+      <p class="blog-meta">
         {{ page.category | default: "General" }} • {{ page.date | date: "%B %d, %Y" }}
       </p>
       {% if page.image %}
-        <img src="{{ page.image }}" alt="{{ page.title }}" style="width: 100%; margin-top: 1rem; border-radius: 12px;" />
+        <img src="{{ page.image }}" alt="{{ page.title }}" />
       {% endif %}
     </header>
 
-    <section class="blog-post-body" style="line-height: 1.7; font-size: 1.1rem; color: #f0f0f0;">
+    <section class="blog-post-body">
       {{ content }}
     </section>
   </article>
