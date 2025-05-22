@@ -3,10 +3,11 @@ layout: default
 ---
 
 <main>
-  <article class="blog-post-wrapper">
+  <article class="blog-post-wrapper" style="max-width: 720px; margin: 2rem auto; padding: 2rem; background: var(--eerie-black-2); color: var(--white-2); border-radius: 16px;">
+    
     <header style="margin-bottom: 2rem;">
-      <h1 class="h2 article-title">{{ page.title }}</h1>
-      <p class="blog-meta">
+      <h1 class="h2 article-title" style="font-size: 2rem;">{{ page.title }}</h1>
+      <p class="blog-meta" style="color: var(--light-gray-70); font-size: 0.95rem;">
         {{ page.category | default: "General" }} • {{ page.date | date: "%B %d, %Y" }}
       </p>
       {% if page.image %}
@@ -14,8 +15,9 @@ layout: default
       {% endif %}
     </header>
 
-    <section class="blog-post-body">
+    <section class="blog-post-body" style="line-height: 1.7; font-size: 1.1rem; color: var(--light-gray);">
       {{ content }}
     </section>
+    
   </article>
 </main>
